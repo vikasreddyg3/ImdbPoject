@@ -1,0 +1,15 @@
+
+<suite name="Automation Testing">
+
+<listeners>
+<listener class-name="com.qa.utility.Reporting"></listener>
+</listeners>
+  <test thread-count="5" name="Functional testing">
+  <parameter name="Browser" value="Chrome"></parameter>
+  <parameter name="Url" value="https://www.imdb.com/"></parameter>
+    <classes>
+      <class name="com.qa.testcases.Tc_Imdb"/>
+      <class name="com.qa.testcases.Tc_ImdbSign"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

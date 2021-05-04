@@ -1,0 +1,9 @@
+com\qa\testcases\amazonCategoryDropDownList.class
+com\qa\BaseTest\TestBaseAutomatinTesting.class
+com\qa\testcases\Tc_ImdbSign.class
+com\qa\pages\amazonCategoryDropDownListPages.class
+com\qa\pages\ImdbPages.class
+com\qa\testcases\Tc_Imdb.class
+com\qa\testcases\TestBase.class
+com\qa\utility\ExcelUtility.class
+com\qa\utility\Reporting.class
